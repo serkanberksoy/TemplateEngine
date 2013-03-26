@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEngine.BL", "TemplateEngine.BL\TemplateEngine.BL.csproj", "{C23B1312-C6D8-413E-A622-DE006D549D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{32A9F749-7CE6-417F-8999-18EF915CDCBB}"
+	ProjectSection(SolutionItems) = preProject
+		TemplateEngine.Tests\.nuget\NuGet.Config = TemplateEngine.Tests\.nuget\NuGet.Config
+		TemplateEngine.Tests\.nuget\NuGet.exe = TemplateEngine.Tests\.nuget\NuGet.exe
+		TemplateEngine.Tests\.nuget\NuGet.targets = TemplateEngine.Tests\.nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEngine.Test", "TemplateEngine.Test\TemplateEngine.Test.csproj", "{B16CC9DA-8C9E-48B7-BB20-5347909202CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C23B1312-C6D8-413E-A622-DE006D549D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23B1312-C6D8-413E-A622-DE006D549D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23B1312-C6D8-413E-A622-DE006D549D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23B1312-C6D8-413E-A622-DE006D549D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16CC9DA-8C9E-48B7-BB20-5347909202CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16CC9DA-8C9E-48B7-BB20-5347909202CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16CC9DA-8C9E-48B7-BB20-5347909202CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16CC9DA-8C9E-48B7-BB20-5347909202CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
